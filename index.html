@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="styles.css" rel="stylesheet"></link>
+    <title>Weather App</title>
+    <link href="styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
+
 <body>
     <div class="container">
         <div class="search">
-        <input placeholder="enter city name" type="text"></input>
-        
-       <button><img src="images/images/search.png"></button>
+            <input placeholder="enter city name" type="text">
+            <button><img src="images/images/search.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
         </div>
         <div class="weather">
-        <img src="images/images/rain.png" class="weather-icon">
-        <h1 class="temp">°30</h1>
-        <h2 class="city">Cebu</h2>
-        <div class="details">
-            <div class="col">
-                <img src="images/images/humidity.png">
-                <div>
-                   <p class="humidity">50%</p> 
-                   <p>humidity</p>
+            <img src="images/images/rain.png" class="weather-icon">
+            <h1 class="temp">°30</h1>
+            <h2 class="city">Cebu</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <img src="images/images/wind.png">
-                <div>
-                    <p class="wind">15 km/h</p>
-                    <p>Wind</p>
+                <div class="col">
+                    <img src="images/images/wind.png">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>

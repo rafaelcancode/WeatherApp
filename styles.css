@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    
 }
 
 
@@ -75,4 +76,17 @@ body {
     font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    display: none;
 }
